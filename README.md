@@ -30,7 +30,7 @@ The solution is built using Python for data processing and modeling, with output
 Student-Dropout-Risk-System/
 │
 ├── data/
-│   ├── student_dropout_raw.csv        # Synthetic dataset (500k+ records)
+│   ├── student_dropout_raw.csv        # Dataset (500k+ records)
 │   ├── student_dropout_processed.csv  # Cleaned & Scaled data
 │
 ├── notebooks/
@@ -119,11 +119,6 @@ To visualize the results in Power BI:
 - **Synthetic Data:** The data is simulated based on real-world patterns but may not capture specific institutional nuances.
 - **Static Snapshot:** The model currently predicts based on a snapshot in time. A future enhancement would be time-series forecasting (RNN/LSTM) to track risk trajectory week-over-week.
 - **Bias:** Historical data may contain bias against certain demographics; fairness audits are recommended before full deployment.
-
-## 8. Business Impact
-
-- **Proactive vs. Reactive:** Shifts intervention from "after failure" to "during semester".
-- **Revenue Retention:** Saving just 1% of the 500k student body (5,000 students) retains approx. $50M in tuition (assuming $10k/year).
 
 ---
 
