@@ -127,5 +127,5 @@ To visualize the results in Power BI:
 
 ---
 
-**Author:** Senior Data Analyst  
-**Date:** October 2024
+**Riya Rastogi**
+GitHub: https://github.com/riyalytics
